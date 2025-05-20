@@ -25,7 +25,7 @@ Built for students, trainers, and caffeine addicts everywhere.
 
 ## 🚀 Getting started
 
-1. Clone this repo or [use it on GitHub Pages](https://your-deployment-link.github.io).
+1. Clone this repo or [use it on GitHub Pages](https://azur-tsx.github.io/README-Factory/).
 2. Fill the form.
 3. Download your brand new personality.
 4. Upload it to your GitHub profile.
