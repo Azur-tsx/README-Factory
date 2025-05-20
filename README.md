@@ -1,4 +1,4 @@
-# 🧠 README Factory — Make Your Profile Look Legit™ (FR)
+# 🧠 README Factory — Make Your GitHub Profile Look Legit™ (FR)
 
 > _Because nothing says “I’m a real dev” like a well-aligned emoji and a quote about debugging._
 
