@@ -1,10 +1,10 @@
-# 🧠 README Factory — Make Your Profile Look Legit™
+# 🧠 README Factory — Make Your Profile Look Legit™ (FR)
 
 > _Because nothing says “I’m a real dev” like a well-aligned emoji and a quote about debugging._
 
 ## ✨ What is this?
 
-A no-nonsense, full-sarcasm README.md generator for developers who:
+A no-nonsense, full-sarcasm README.md generator for developers who :
 - Don’t want to write Markdown by hand
 - Don’t want to explain why their GitHub profile is empty
 - Want to look semi-professional while admitting defeat
