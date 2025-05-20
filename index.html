@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>README Factory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Générateur de README.md</h1>
+        <p class="description">Crées facilement un README.md pour ton profil GitHub</p>
+        <form id="readmeForm">
+            <section class="name">
+                <select name="emoji" required>
+                    <option>👾</option>
+                    <option>🧠</option>
+                    <option>💻</option>
+                    <option>🔥</option>
+                    <option>🚀</option>
+                    <option>😵‍💫</option>
+                </select>
+                <input type="text" name="pseudo" placeholder="Pseudo GitHub" required>
+            </section>
+            <input type="text" name="bio" placeholder="Petite bio" required>
+            <input type="text" name="desc" placeholder="Une description courte" required>
+            <fieldset>
+                <legend>Technologies utilisées :</legend>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="HTML">
+                    <span class="icon html"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="CSS">
+                    <span class="icon css"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="JavaScript">
+                    <span class="icon js"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="PHP">
+                    <span class="icon php"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="React">
+                    <span class="icon react"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="Node.js">
+                    <span class="icon node"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="Git">
+                    <span class="icon git"></span>
+                </div>
+                <div class="tech">
+                    <input type="checkbox" name="techs" value="Figma">
+                    <span class="icon figma"></span>
+                </div>
+            </fieldset>
+            <input type="text" name="favProject" placeholder="Projet préféré" required>
+            <input type="text" name="quote" placeholder="Ta citation dev préférée" required>
+            <input type="email" name="contact" placeholder="Adresse email" required>
+            <button type="submit">Générer le README.md</button>
+            <button id="githubLink">Créer le repo sur GitHub</button>
+        </form>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
